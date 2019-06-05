@@ -1,0 +1,14 @@
+h1 {
+color: teal;
+text-align: center;
+font-size: 40px;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.small {
+    font-variant: small-caps;
+}

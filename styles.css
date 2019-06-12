@@ -1,9 +1,95 @@
+header {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left:  30px;
+}
 h1 {
 color: teal;
 text-align: center;
-font-size: 40px;
+font-size: 70px;
+font-family: Impact, Charcoal, sans-serif;
 
 }
+h2 {
+    color: navy;
+    text-align: left;
+    margin-left: 5%;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+animation-duration: 3s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 5%;
+    width: 100%;
+  }
+  } 
+}
+h3 {
+    color: darkslategray;
+    text-align: left;
+    margin-left: 10px
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#helplist {
+    color: darkslategray;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+article {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 50px;
+    border: 15px solid whitesmoke;
+    margin-bottom: 10px;
+
+}
+li {
+    color: navy;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+main {
+    background-color: lightgrey;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+button {
+    font-size: 25px;
+    border: 0px;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    
+}
+a {
+    color: navy;
+    text-decoration: none;
+}
+a:hover {
+    background-color: lightgray;
+    color: orangered;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -11,4 +97,7 @@ font-size: 40px;
 }
 p.small {
     font-variant: small-caps;
+}
+footer {
+    background-color: lightcyan;
 }

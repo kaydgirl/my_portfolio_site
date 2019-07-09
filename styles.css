@@ -11,7 +11,7 @@ header {
 h1 {
 color: teal;
 text-align: center;
-font-size: 70px;
+font-size: 10vw;
 font-family: Impact, Charcoal, sans-serif;
 
 }
@@ -19,7 +19,7 @@ h2 {
     color: navy;
     text-align: left;
     margin-left: 5%;
-font-size: 50px;
+font-size: 5vw;
 font-family: Arial, Helvetica, sans-serif;
 animation-duration: 3s;
 animation-name: slidein;
@@ -41,13 +41,13 @@ h3 {
     color: darkslategray;
     text-align: left;
     margin-left: 10px
-    font-size: 30px;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 #helplist {
     color: darkslategray;
     text-align: left;
-    font-size: 25px;
+    font-size: 2pvw;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
 }
@@ -63,7 +63,7 @@ article {
 li {
     color: navy;
     text-align: left;
-    font-size: 20px;
+    font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
@@ -79,7 +79,7 @@ main {
 }
 
 button {
-    font-size: 25px;
+    font-size: 2vw;
     border: 0px;
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
@@ -97,7 +97,7 @@ a:hover {
 }
 #navbar-item {
     
-    font-size: 20px;
+    font-size: 2vw;
     font-color: navy;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -105,7 +105,7 @@ a:hover {
 }
 #home {
 
-    font-size: 15px;
+    font-size: 1vw;
     border: 0px;
     border-radius: 5px;
     background-color: lightgray;
